@@ -1,0 +1,38 @@
+@charset "UTF-8";
+:root{
+    --color1:#94e344;
+    --color2:#e2f3e4;
+    --color3:#332c50;
+    --color4:#46878f;
+}
+main{
+    background-image: linear-gradient(to top, var(--color3), var(--color4));
+}
+ main > section{
+    width:85vw;
+    height:13rem ;
+ }
+#image{
+    display: inline-block;
+    float: left;
+    background:url(../image/background02.png)center bottom no-repeat ;
+    background-size:cover;
+    height:13rem;
+    width: 25vw;
+    border-radius: 10px 0px 0px 10px;
+}
+section> #conteudo > h1 {
+    font-size: 1rem;
+}
+#conteudo > p {
+    font-size: 0.8rem;
+    margin-left:200px;
+} 
+#conteudo >form{
+    text-align:left;
+}
+#email, #senha{
+    width: 55vw;
+    height: 15px;
+    margin-left: 20px;
+}

@@ -28,7 +28,7 @@ main > section{
     box-shadow:2px 4px 5px 0px #00000071;
 }
 #image{
-    background: url(../image/lemon-lime-palette-example-by-qirlfriend-571936.png) center center no-repeat;
+    background: url(../image/backgroumd01.png)  no-repeat;
     background-size: cover;
     width: 18rem;
     height: 12rem;
@@ -48,7 +48,54 @@ section >#conteudo > h1{
 
 }
 #conteudo > form{
-    color: #fff37b;
+    color: var(--color1);
+    font-size: 15px;
     text-align: center;
     margin-bottom: 25px;
+}
+#email,#senha{
+    background-color: #6aadc8a1;
+    width: 14rem;
+    padding: 12px 0px;
+    border-radius: 20px 10px;
+}
+#email{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#senha{
+    display: inline-block;
+    margin: 10px;
+}
+#isenha ,#iemail{
+    border-color: var(--color3);
+    padding:5px;
+    border-radius: 10px 5px;
+}
+input#enviar{
+    width: 14rem;
+    border: none;
+    margin-top: 15px;
+    padding: 10px 0px;
+    background-color: var(--color4);
+    color: white;
+    border-radius: 5px 5px;
+}
+input#enviar:hover{
+    transition: 0.3s;
+    background-color:var(--color1);
+    color: var(--color4);
+}
+input#redefinir{
+    border: none;
+    padding: 10px 0px;
+    margin-top: 15px;
+    width: 14rem;
+    color: var(--color4);
+    border-radius: 5px 5px;
+}
+input#redefinir:hover{
+    transition: 0.3s;
+    color: white;
+    background-color:#EF7B45;
 }
