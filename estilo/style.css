@@ -1,0 +1,54 @@
+@charset "UTF-8";
+:root{
+    --color1:#fff37b;
+    --color2:#5fcc86;
+    --color3:#28375b;
+    --color4:#39809c;
+    --color5:#6AADC8;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color:var(--color2);
+    height: 100vh;
+}
+main > section{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    width: 18rem;
+    background-color: var(--color3);
+    border-radius:4.5%;
+    box-shadow:2px 4px 5px 0px #00000071;
+}
+#image{
+    background: url(../image/lemon-lime-palette-example-by-qirlfriend-571936.png) center center no-repeat;
+    background-size: cover;
+    width: 18rem;
+    height: 12rem;
+    border-radius: 4.5% 4.5% 0% 0%;
+}
+
+section >#conteudo > h1{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 1.4rem;
+    color:var(--color5)
+}
+#conteudo > p {
+    padding: 15px;
+    font-size: 0.9rem;
+    color: var(--color5)
+
+}
+#conteudo > form{
+    color: #fff37b;
+    text-align: center;
+    margin-bottom: 25px;
+}
