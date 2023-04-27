@@ -24,8 +24,8 @@ main > section{
     margin: auto;
     width: 18rem;
     background-color: var(--color3);
-    border-radius:4.5%;
-    box-shadow:2px 4px 5px 0px #00000071;
+    border-radius:20px;
+    box-shadow:2px 4px 5px 0px #00000025;
 }
 #image{
     background: url(../image/backgroumd01.png)  no-repeat;
@@ -56,22 +56,36 @@ section >#conteudo > h1{
 #email,#senha{
     background-color: #6aadc8a1;
     width: 14rem;
-    padding: 12px 0px;
+    padding: 4px 0px;
     border-radius: 20px 10px;
 }
 #email{
     display: inline-block;
     margin-bottom: 10px;
 }
+div#email>.material-icons{
+    display: inline;
+    position: absolute;
+    top: 59%;
+    left: 13%;  
+  }
 #senha{
     display: inline-block;
     margin: 10px;
 }
+div#senha>.material-icons{
+    display: inline;
+    position: absolute;
+    top: 69.5%;
+    left: 13%;  
+  }
 #isenha ,#iemail{
+    margin-left: 20px;
     border-color: var(--color3);
     padding:5px;
     border-radius: 10px 5px;
 }
+
 input#enviar{
     width: 14rem;
     border: none;

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 :root{
     --color1:#94e344;
     --color2:#e2f3e4;
@@ -9,20 +10,23 @@ main{
     background-image: linear-gradient(to top, var(--color3), var(--color4));
 }
  main > section{
-    width:85vw;
-    height:13rem ;
+    width:650px;
+    height:17rem ;
  }
 #image{
     display: inline-block;
     float: left;
     background:url(../image/background02.png)center bottom no-repeat ;
     background-size:cover;
-    height:13rem;
-    width: 25vw;
+    height:17rem;
+    width: 200px;
     border-radius: 10px 0px 0px 10px;
 }
 section> #conteudo > h1 {
     font-size: 1rem;
+}
+#conteudo > p{
+    display: block;
 }
 #conteudo > p {
     font-size: 0.8rem;
@@ -32,7 +36,55 @@ section> #conteudo > h1 {
     text-align:left;
 }
 #email, #senha{
-    width: 55vw;
-    height: 15px;
-    margin-left: 20px;
+    display: block;
+    width: 400px;
+    height: 27px;
+    margin-left: 210px;
+    padding-right: 10px;
+    margin-top: 0;
+}
+#iemail,#isenha{
+   width: 358px;
+   height: 4px;
+   margin-left: 0px;
+   border-radius: 10px;
+   padding: 10px 0px ;
+   text-align: center;
+}
+#iemail{
+    display:inline;
+    position: absolute;
+    top: 36%;
+    left: 37.5%;
+}
+div#email>.material-icons{
+  display: inline;
+  position: absolute;
+  top: 36%;
+  left: 33.5%;  
+}
+#isenha{
+    display:inline;
+    position: absolute;
+    top:58.5%;
+    left: 37.5%;
+}
+div#senha>.material-icons{
+    display: inline;
+    position: absolute;
+    top: 59%;
+    left: 33.5%;  
+    margin-right: 10px;
+  }
+input#enviar,input#redefinir{
+    display: inline;
+}
+input#enviar{
+    float: left;
+    margin: 6px 10px 20px 20px;
+    width: 12rem;
+}
+input#redefinir{
+    margin-top: 6px; 
+    width:12rem;
 }

@@ -1,0 +1,80 @@
+@charset "UTF-8";
+:root{
+    --color01:#211e20;
+    --color02:#555568;
+    --color03:#a0a08b;
+    --color04:#e9efec;
+}
+main{
+    background-image: linear-gradient(to bottom, var(--color01), var(--color02));
+}
+main > section{
+    background-color: var(--color03);
+    width: 800px;
+    height: 20rem;
+}
+#image{
+    display: inline-block;
+    float:right;
+    background:url(../image/background03.png) center bottom no-repeat;
+    background-size: cover;
+    height: 20rem;
+    width: 350px;
+    border-radius: 0px 10px 10px 0px;
+}
+section > #conteudo > h1{
+    font-size: 1.8rem;
+    color: var(--color01);
+}
+#conteudo > p {
+    font-size: 1rem;
+    color: var(--color01);
+    margin: 0;
+
+}
+#email,#senha{
+    margin-left: 20px;
+    background-color: var(--color02);
+    width: 327x;
+}
+div#email > .material-icons{
+    top:37.5%;
+    left:4%;
+    color: var(--color04);
+}
+div#senha > .material-icons{
+    top: 57.5%;
+    left: 4%;
+    color: var(--color04);
+}
+#iemail{
+    top:37.8%;
+    left:6%;
+    margin-left: 10px;
+    border: none;
+}
+#isenha{
+    top: 57.8%;
+    left: 6%;
+    margin-left: 10px;
+    border: none;
+}
+input#enviar{
+    background-color: var(--color02);
+    color: var(--color04);
+}
+input#enviar:hover{
+    transition: 0.4s;
+    background-color:var(--color04) ;
+    color: var(--color02);
+}
+input#redefinir{
+    background-color:var(--color02) ;
+    color: var(--color04);
+   
+}
+input#redefinir:hover{
+    transition: 0.4s;
+    background-color:#C42021;
+    color: var(--color04);
+}
